@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Map Distance Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mobile-container">
+        <header class="app-header">
+            <button id="createMap">Create Map</button>
+            <button id="navigate">Navigate</button>
+        </header>
+        
+        <main class="map-controls" id="mapControls">
+            <div class="input-group">
+                <input type="text" id="labelInput" placeholder="Enter Label">
+                <button id="saveDistance">Save</button>
+            </div>
+            
+            <div class="distance-display" id="distanceResult">0m</div>
+            
+            <div class="button-group">
+                <button id="startPoint">Start</button>
+                <button id="endPoint">End</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
